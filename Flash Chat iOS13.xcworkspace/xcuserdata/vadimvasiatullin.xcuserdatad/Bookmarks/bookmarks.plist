@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>724185780</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"Tim-3B-f4n"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Flash-Chat-VVR/Flash Chat iOS13/Views/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>Error: Failed to render and update auto layout status for WelcomeViewController (Tim-3B-f4n): dlopen(CLTypingLabel.framework, 0x0001): tried: '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Overlays/CLTypingLabel.framework/CLTypingLabel' (no such file), '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/CLTypingLabel.framework/CLTypingLabel' (no such file), '/Library/Developer/CoreSimulator/Volumes/iOS_21C62/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 17.2.simruntime/Contents/Resources/RuntimeRootCLTypingLabel.framework' (no such file), 'CLTypingLabel.framework' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Library/Developer/CoreSimulator/Volumes/iOS_21C62/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 17.2.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CLTypingLabel.framework/CLTypingLabel' (no such file)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>Timestamp</key>
+					<string>724185780</string>
+					<key>XcodeLocation</key>
+					<string>{"MemberID":"Tim-3B-f4n"}</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Flash-Chat-VVR/Flash Chat iOS13/Views/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>IBDocumentMemberLocation</string>
+			</dict>
+			<key>title</key>
+			<string>Error: Failed to render and update auto layout status for WelcomeViewController (Tim-3B-f4n): dlopen(CLTypingLabel.framework, 0x0001): tried: '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Overlays/CLTypingLabel.framework/CLTypingLabel' (no such file), '/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/CLTypingLabel.framework/CLTypingLabel' (no such file), '/Library/Developer/CoreSimulator/Volumes/iOS_21C62/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 17.2.simruntime/Contents/Resources/RuntimeRootCLTypingLabel.framework' (no such file), 'CLTypingLabel.framework' (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64')), '/Library/Developer/CoreSimulator/Volumes/iOS_21C62/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 17.2.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CLTypingLabel.framework/CLTypingLabel' (no such file)</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>Flash-Chat-VVR/Flash Chat iOS13/Views/Base.lproj/Main.storyboard</string>
+					</dict>
+				</dict>
+				<key>type</key>
+				<string>DVTDocumentLocation</string>
+			</dict>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
