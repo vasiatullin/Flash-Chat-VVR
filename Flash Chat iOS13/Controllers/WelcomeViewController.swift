@@ -8,14 +8,17 @@
 
 import UIKit
 
+
 class WelcomeViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     
     
-    override func viewDidLoad() {
+   override func viewDidLoad() {
         super.viewDidLoad()
-        titleLabel.text = ""
+       
+    
+       titleLabel.text = ""
         var charIdex = 0.0
         let titleText = "⚔️ ValhallaChat ⚔️"
         for leter in titleText {

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC9TdSbdG15r5v2AtpQWShhKfpqlfdUra0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>917470374119</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Vasiatullin.Flash-Chat-VVR</string>
+	<key>PROJECT_ID</key>
+	<string>valhallachat-vvr</string>
+	<key>STORAGE_BUCKET</key>
+	<string>valhallachat-vvr.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:917470374119:ios:76159d8bc641ea9cf89a42</string>
+</dict>
+</plist>
