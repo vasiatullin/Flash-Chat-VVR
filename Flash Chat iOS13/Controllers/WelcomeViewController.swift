@@ -20,7 +20,7 @@ class WelcomeViewController: UIViewController {
     
        titleLabel.text = ""
         var charIdex = 0.0
-        let titleText = "⚔️ ValhallaChat ⚔️"
+       let titleText = K.appName
         for leter in titleText {
             Timer.scheduledTimer(withTimeInterval: 0.1 * Double(charIdex) , repeats: false) { (timer) in
                 
