@@ -14,11 +14,20 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var messageTextfield: UITextField!
     
+    var messages: [Message] = [
+        Message(sender: "1@2.com", body: "Привет!"),
+        Message(sender: "1@3.com", body: "Здаров!"),
+        Message(sender: "1@2.com", body: "Как дела?"),
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // убираем кнопку назад в чате
+        tableView.dataSource = self
         title = K.appName
         navigationItem.hidesBackButton = true
+        
+        tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
@@ -35,3 +44,17 @@ class ChatViewController: UIViewController {
     }
     
 }
+extension ChatViewController: UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return messages.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! MessageCell
+        cell.lable.text = messages[indexPath.row].body
+        return cell
+    }
+    
+    
+}
+
