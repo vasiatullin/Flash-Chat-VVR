@@ -23,11 +23,12 @@
 		E52C23872B408B9E003A863E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52C23862B408B9E003A863E /* Message.swift */; };
 		E52C238A2B4DCC8A003A863E /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52C23882B4DCC8A003A863E /* MessageCell.swift */; };
 		E52C238B2B4DCC8A003A863E /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52C23892B4DCC8A003A863E /* MessageCell.xib */; };
+		E55F89AE2B543BA200D122C8 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E55F89AD2B543BA200D122C8 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0702C7DE0B8B469B863DFE16 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B628173235DEE8100E35CAF /* Valhalla Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valhalla Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B62817D235DEE8100E35CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B616F5BAD44D0B9D7EE2DE16 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
+				E55F89AE2B543BA200D122C8 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +76,7 @@
 		0B628174235DEE8100E35CAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */,
+				0B628173235DEE8100E35CAF /* Valhalla Chat iOS13.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +89,6 @@
 				0B628194235DF03A00E35CAF /* Models */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
-				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
 				E52C23822B2F5A4D003A863E /* GoogleService-Info.plist */,
@@ -103,6 +104,7 @@
 				0B62818C235DF00B00E35CAF /* RegisterViewController.swift */,
 				0B62818E235DF01000E35CAF /* LoginViewController.swift */,
 				0B628190235DF01B00E35CAF /* ChatViewController.swift */,
+				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B628172235DEE8100E35CAF /* Flash Chat iOS13 */ = {
+		0B628172235DEE8100E35CAF /* Valhalla Chat iOS13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */;
+			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Valhalla Chat iOS13" */;
 			buildPhases = (
 				D219F8FCB423541D72FBC198 /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
@@ -159,9 +161,12 @@
 			);
 			dependencies = (
 			);
-			name = "Flash Chat iOS13";
+			name = "Valhalla Chat iOS13";
+			packageProductDependencies = (
+				E55F89AD2B543BA200D122C8 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Flash Chat iOS13";
-			productReference = 0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */;
+			productReference = 0B628173235DEE8100E35CAF /* Valhalla Chat iOS13.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,11 +194,14 @@
 				Base,
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
+			packageReferences = (
+				E55F89AC2B543BA200D122C8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B628172235DEE8100E35CAF /* Flash Chat iOS13 */,
+				0B628172235DEE8100E35CAF /* Valhalla Chat iOS13 */,
 			);
 		};
 /* End PBXProject section */
@@ -468,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS13" */ = {
+		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Valhalla Chat iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B628188235DEE8400E35CAF /* Debug */,
@@ -478,6 +486,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E55F89AC2B543BA200D122C8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E55F89AD2B543BA200D122C8 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E55F89AC2B543BA200D122C8 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B62816B235DEE8100E35CAF /* Project object */;
 }
