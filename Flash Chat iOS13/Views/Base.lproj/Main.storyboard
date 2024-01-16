@@ -122,7 +122,7 @@
                                         <rect key="frame" x="0.0" y="126" width="414" height="51"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Register">
-                                            <color key="titleColor" name="BrandBlue"/>
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="registerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9dE-Sc-egq"/>
@@ -156,7 +156,8 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="stz-qy-NwU"/>
-                        <color key="backgroundColor" name="BrandLightBlue"/>
+                        <color key="backgroundColor" red="0.17440584670000001" green="0.70336549699999995" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Scg-da-zi8" firstAttribute="trailing" secondItem="stz-qy-NwU" secondAttribute="trailing" id="3Fk-Xo-DV8"/>
                             <constraint firstItem="j5s-Lc-WfT" firstAttribute="trailing" secondItem="stz-qy-NwU" secondAttribute="trailing" id="Tq9-EG-2wo"/>
@@ -272,7 +273,7 @@
             </objects>
             <point key="canvasLocation" x="1857.9710144927537" y="643.52678571428567"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--⚔️ ValhallaChat ⚔️-->
         <scene sceneID="yeH-Ia-3JZ">
             <objects>
                 <viewController id="lwd-AH-u8E" customClass="ChatViewController" customModule="Valhalla_Chat_iOS13" customModuleProvider="target" sceneMemberID="viewController">
@@ -313,7 +314,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="pym-e9-R2r" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="20" id="27T-Dx-HYk"/>
                                     <constraint firstItem="UWj-GQ-Vph" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="20" id="FKs-Vm-x9G"/>
@@ -325,7 +326,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6YX-ca-E8f"/>
-                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="S6L-hg-cne" firstAttribute="trailing" secondItem="6YX-ca-E8f" secondAttribute="trailing" id="DBU-jl-PPO"/>
                             <constraint firstItem="xlo-0G-XA6" firstAttribute="leading" secondItem="6YX-ca-E8f" secondAttribute="leading" id="JMa-Pn-SZL"/>
@@ -336,7 +337,7 @@
                             <constraint firstItem="S6L-hg-cne" firstAttribute="top" secondItem="6YX-ca-E8f" secondAttribute="top" id="sQt-L5-8LV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Q5u-eL-Bgp">
+                    <navigationItem key="navigationItem" title="⚔️ ValhallaChat ⚔️" id="Q5u-eL-Bgp">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" image="figure.walk.circle.fill" catalog="system" id="Eme-yv-umx">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -361,6 +362,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IBe-GJ-xFT">
                         <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.9232674837" green="0.92887359859999996" blue="0.94202739000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -373,7 +376,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Sa1-Vv-BDu"/>
+        <segue reference="rZv-sv-gc4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="figure.walk.circle.fill" catalog="system" width="128" height="123"/>
@@ -403,9 +406,6 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

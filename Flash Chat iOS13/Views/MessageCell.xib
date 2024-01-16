@@ -55,10 +55,10 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" name="BrandLightGray"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </stackView>
                 </subviews>
-                <color key="backgroundColor" name="BrandLightGray"/>
+                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="Mev-t9-aj1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Kda-oB-1ww"/>
                     <constraint firstItem="Mev-t9-aj1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="U4z-7x-iKe"/>
